@@ -31,7 +31,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">HTML</a>
+                <div class="dropdown">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="htmlContent" data-bs-toggle="dropdown" aria-expanded="false">
+                    HTML
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="htmlContent">
+                    <li><a class="dropdown-item" href="#">Tags</a></li>
+                    <li><a class="dropdown-item" href="#">Semantics</a></li>
+                    <li><a class="dropdown-item" href="#">Forms</a></li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">CSS</a>
@@ -50,13 +59,13 @@
 
           <div class="row">
 
-            <div class="col-0 col-md-3">
+            <div class="col">
               <div class="content">
                 1
               </div>
             </div>
 
-            <div class="col-12 col-md-9">
+            <div class="col">
               <div class="content">
                 2
               </div>
