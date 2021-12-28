@@ -12,3 +12,6 @@
     background-color: white;
     border-radius: 20px;
 }
+.example{
+    min-height: 200px;
+}
