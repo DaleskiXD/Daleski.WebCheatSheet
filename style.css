@@ -15,3 +15,7 @@
 .example{
     min-height: 200px;
 }
+
+.accordion-header{
+    font-size: 2em;
+}
